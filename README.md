@@ -9,39 +9,39 @@ CSS is within the <style> tag.
 Javascript is within the <script> tags.
 
 The full example is posted in the following jsbin:
-http://jsbin.com/kuzavalava/1/edit?html,output
+[jsbin](http://jsbin.com/kuzavalava/1/edit?html,output)
 
 
 Some other reference links:
-https://thimble.webmaker.org/
+[thimble](https://thimble.webmaker.org/)
 
 jquery:
-http://jquery.com/download/
-https://api.jquery.com/category/effects/
+[download](http://jquery.com/download/)
+[effects api](https://api.jquery.com/category/effects/)
 
 Reference for web: Mozilla Developer Network
-https://developer.mozilla.org/en-US/
+[MDN] (https://developer.mozilla.org/en-US/)
 
-HTML reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-CSS reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
-Javascript: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[HTML reference] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+[CSS reference] (https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+[Javascript] (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Google Fonts:
-https://www.google.com/fonts
+[Google Fonts] (https://www.google.com/fonts)
 
-Web colors:
-http://en.wikipedia.org/wiki/Web_colors
+[Web colors] (http://en.wikipedia.org/wiki/Web_colors)
 
 For the next session, you should download and install Sublime Text 3, which will be our professional web editor.
-1) http://www.sublimetext.com/3
+[download] (http://www.sublimetext.com/3)
 
 You should also signup for a Github.com account. Github will allow you to keep track of your projects and ease future collaboration.
-2) https://github.com/join
+[join github] (https://github.com/join)
 
 3) You should complete a greeting card for mother's day (or different web page project)
 
 4) We'll build a mini-site of 3 pages. The theme will be amazing vacation spots (either that you visited or would like to visit).
+
 Each page should contain a selection of 3 images with some titles and description of the places. Bring your own photos or google around.
+
 
 ```html
 
