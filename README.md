@@ -4,9 +4,11 @@ Session #1
 It's been a fast paced introduction to the three main pieces for web page development: html, css, javascript.
 Jquery is a Javascript library that allows easy web page manipulation.
 
+```
 HTML is within the <html> tags
 CSS is within the <style> tag.
 Javascript is within the <script> tags.
+```
 
 The full example is posted in the following jsbin:
 [jsbin](http://jsbin.com/kuzavalava/1/edit?html,output)
