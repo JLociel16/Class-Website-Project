@@ -5,7 +5,7 @@ It's been a fast paced introduction to the three main pieces for web page develo
 Jquery is a Javascript library that allows easy web page manipulation.
 
 ```
-HTML is within the <html> tags
+HTML is within the <html> tags.
 CSS is within the <style> tag.
 Javascript is within the <script> tags.
 ```
@@ -45,7 +45,7 @@ You should also signup for a Github.com account. Github will allow you to keep t
 Each page should contain a selection of 3 images with some titles and description of the places. Bring your own photos or google around.
 
 
-```
+```html
 <!doctype html>
 <html>
   
