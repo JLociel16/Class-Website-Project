@@ -43,8 +43,7 @@ You should also signup for a Github.com account. Github will allow you to keep t
 Each page should contain a selection of 3 images with some titles and description of the places. Bring your own photos or google around.
 
 
-```html
-
+```
 <!doctype html>
 <html>
   
