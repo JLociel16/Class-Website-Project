@@ -102,3 +102,87 @@ Each page should contain a selection of 3 images with some titles and descriptio
 </html>
 
 ```
+
+Session #2
+==========
+
+We used CSS media queries to make Session #2 web page responsive.
+
+Responsive Web Design
+---------------------
+
+Some examples of responsive web sites:
+http://mediaqueri.es/
+
+Guide on Media Queries
+https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries
+
+1) Create content
+https://developers.google.com/web/fundamentals/getting-started/your-first-multi-screen-site/content?hl=en
+
+Sample Content
+http://googlesamples.github.io/web-fundamentals/samples/getting-started/your-first-multi-screen-site/addcontent.html
+
+2) Make it Responsive
+https://developers.google.com/web/fundamentals/getting-started/your-first-multi-screen-site/responsive?hl=en
+
+Sample Responsive Web
+http://googlesamples.github.io/web-fundamentals/samples/getting-started/your-first-multi-screen-site/fixingfirstbreakpoint.html
+
+Principles of Site Design
+https://developers.google.com/web/fundamentals/principles/index?hl=en
+
+Animations
+https://developers.google.com/web/fundamentals/look-and-feel/index?hl=en
+
+
+Web Reference
+=============
+
+Fantastic slides for an intro to: HTML, CSS, Javascript and Git/Github
+https://www.girldevelopit.com/materials
+
+Slides on HTML5
+http://slides.html5rocks.com/
+
+
+Git and Github
+
+1) Install Git command line
+https://www.git-scm.com/download/
+
+2) Create an account with Github
+https://github.com/join
+
+3) Setup git
+https://help.github.com/articles/set-up-git/
+
+4) Create a repository
+https://help.github.com/articles/create-a-repo/
+
+5) Short tutorials on using git
+https://try.github.io/ (free)
+http://gitreal.codeschool.com/ (Try Level 1, which is free)
+
+Basic Web Page
+--------------
+You should also try out Front-End Foundations Level 1 on HTML (only level 1 is free)
+https://www.codeschool.com/courses/front-end-foundations
+
+If you need to go through basic Javascript, try out the following free class:
+https://www.codeschool.com/courses/javascript-road-trip-part-1
+
+Basic Mini Site
+---------------
+(This is for the more advanced participants who also understands Javascript and jquery)
+
+You should also complete the free jquery class:
+https://www.codeschool.com/courses/try-jquery
+
+
+Google has a nice, comprehensive guide on building web sites:
+https://developers.google.com/web/fundamentals/?hl=en
+https://developers.google.com/web/fundamentals/principles/index?hl=en
+
+The animation guide is awesome!
+https://developers.google.com/web/fundamentals/look-and-feel/animations/

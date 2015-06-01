@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Your Awesome Webpage created on Mon, May 4 2015 10:45 PM</title>
+    
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    
+    <style>
+      body {
+        background-image: url(https://thumbs.dreamstime.com/x/funny-tiger-cartoon-24674849.jpg);
+      }
+      h2 {
+        font-family: 'Lobster', cursive;
+        color: orange;
+        background-color: lime;
+        text-align: center;
+        border: 4px solid red;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    
+    <h2>Little Tiger</h2>
+    <p>Hello  Bronx</p>
+    
+    <img src="http://thumbs.dreamstime.com/x/funny-tiger-cartoon-24674849.jpg" width="100" border="10" id="tiger">
+    
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/kJ2pQ_Vhh58" frameborder="0" allowfullscreen></iframe>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+    <script>
+  
+      var showing = true;
+    
+      $('h2').on('click', function() {
+        if (showing) {
+          $('#tiger').fadeOut();
+        }
+        else {
+          $('#tiger').fadeIn();
+        }
+  
+        showing = !showing;
+      });
+ 
+    </script>
+    
+  </body>
+</html>

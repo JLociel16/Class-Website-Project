@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Your Awesome Webpage created on Mon, May 11 2015 11:06 PM</title>
+   
+    <style>
+
+      img {
+        display: block;
+        margin: 0 auto; 
+      }
+      
+      body {
+        background-color: pink; 
+      }
+      
+      a {
+        color: yellow;
+      }
+      
+      a:hover {
+        color: red;
+      }
+      
+      h1 {
+        color: lime;
+        background-color:black;
+        text-align: center;
+        border: 10px solid yellow;
+        border-radius: 20px;
+      }
+      
+      h1:hover {
+        color: red;
+        background-color: pink;
+        border-color: lime;
+        transition: 1s;
+        cursor: pointer;
+      }
+      
+      p.cyan {
+        background-color: cyan;
+      }
+      
+      button {
+        font-size: 24px;
+      }
+      
+      img {
+        /* display: none; */
+      }
+      
+      @media (max-width: 400px) {
+      
+        img {
+            width: 100%;
+        }
+      
+      }
+         
+    </style>
+   
+  </head>
+  
+  <body>
+
+    <h1>Vacation Spots</h1>
+    
+    
+    <a href="page2.html">Let's go to Google</a>
+    
+    <p class="cyan">Theresa was here something amazing with the web. Theresa was here something amazing with the web</p>
+    <p class="cyan">Theresa was here something amazing with the web. Theresa was here something amazing with the web</p>
+    <p>Theresa was here something amazing with the web. Theresa was here something amazing with the web</p>
+
+    <img src="https://intuitiontosucceed.academy/wp-content/uploads/2014/06/K2_Mount_Godwin_Austen_Chogori_Savage_Mountain1.jpg" width="400" id="mountain">
+    
+    <button>Hello</button>
+
+    Food: <input type="text" id="food"/>
+    
+    <h2>Shopping cart</h2>
+    <ul>
+      <li>Cheese?</li>
+      <li>Chocolate</li>
+    </ul>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+    <script>
+      
+      $('button').on('click', function() {
+        var myFood =$('#food').val();
+        alert('Food was: ' + myFood);
+        
+        var item = '<li>' + myFood + '</li>';
+
+        $('ul').append(item);
+      });
+      
+
+      var showing = true;
+      
+      $('h1').on('click', function() {
+          if (showing) {      
+              $('#mountain').slideUp();
+          }
+          else {
+              $('#mountain').slideDown();
+          }
+          showing = !showing;
+      });
+      
+      $('p.cyan').on('click', function() {
+        alert("Hello there")
+      });
+      
+    </script>
+  </body>
+</html>
