@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+  </title>
+
+  <style type="text/css">
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+  }
+
+  </style>
+</head>
+<body>
+
+    Image: <input type="text" id="newImage"/>
+    Title: <input type="text" id="title"/>
+
+    <button>Add Image</button>
+    
+    <h2>Image gallery</h2>
+    <ul>
+    </ul>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+    <script>
+  
+      $('button').on('click', function() {
+        var title = $('#title').val();
+        var url = $('#newImage').val();
+
+        var item = '<li>' + 
+          '<p>' + title + '</p>' + 
+          '<img src="' + url + '" width="100">' +
+          '</li>';
+
+        var $item = $(item);
+
+        $item.on('click mouseenter', function() {
+          var title = $(this).find('p').text();
+          alert(title);
+        });
+
+        $('ul').append($item);
+      });
+
+    </script>
+      
+
+</body>
+</html>
+
