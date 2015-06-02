@@ -1,0 +1,18 @@
+1) git clone
+
+https://github.com/Dedvalve/Class-Website-Project.git
+
+2) mkdir <folder-name: your name>
+   mkdir segio
+
+2) git add sergio/<files>
+
+3) git commit -m "adding PERSON_NAME's files"
+
+4) git push origin master
+
+   * May need to do: git pull
+
+---
+http://jsbin.com/benotazefa/1/edit?html,output
+---
