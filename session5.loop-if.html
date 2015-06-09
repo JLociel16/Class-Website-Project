@@ -10,11 +10,15 @@
     .block {
       width: 30px;
       height: 30px;
-      background-color: #bada55;
+      background-color: purple;
       outline: 1px solid red;
       display: inline-block;
     }
     
+    .green {
+      background-color: #bada55;
+    }
+
     .yellow {
       background-color: yellow;
     }
@@ -36,7 +40,10 @@
         if (remainder === 1 || remainder === 3) {
           color = 'yellow';
         }
-        var bl = '<div class="block"></div>';
+        if (remainder === 2) {
+          color = 'green';
+        }
+        var bl = '<div class="block ' + color + '""></div>';
        $('#blocks').append(bl);
       }    
     
