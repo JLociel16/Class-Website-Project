@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  
+  <style>
+    
+    .block {
+      width: 30px;
+      height: 30px;
+      background-color: purple;
+      outline: 1px solid red;
+      display: inline-block;
+    }
+    
+    .green {
+      background-color: #bada55;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div id="blocks">
+  </div>
+
+  <script>
+    
+      for (var i = 0; i < 50; i++) {
+        var bl = '<div class="block"></div>';
+        $('#blocks').append(bl);
+      }
+    
+      var flip = true;
+    
+      setInterval(function() {
+        flip  = !flip;
+        
+        var $blocks = $('.block');
+        for (var i = 0; i < 50; i++) {
+          if (i % 2 === 0) {
+            if (flip) {
+              $blocks.eq(i).addClass("yellow");
+            }
+            else {
+              $blocks.eq(i).removeClass("yellow");
+            }
+          }
+          else {
+            if (flip) {
+              $blocks.eq(i).removeClass("green");
+            }
+            else {
+              $blocks.eq(i).addClass("green");
+            }            
+          }
+        }
+      }, 100);
+    
+    
+  </script>
+
+</body>
+</html>
