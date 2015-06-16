@@ -17,3 +17,8 @@ body {
 .listings ul.properties_list li h1 a {
     color: white;
 }
+
+section.caption {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
