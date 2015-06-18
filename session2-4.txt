@@ -1,0 +1,88 @@
+HTML = Hyper Text Markup Language
+
+Lists
+
+<ul>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+</ul>
+
+ul: parent tag
+li: children tags (make sure to indent them)
+
+Anchor tags
+
+<a href="" target="_blank|_self"> underlined link </a>
+
+Absolute links vs relative links (all based on the same web site)
+
+href, target: attributes
+
+https://www.codeschool.com/courses/front-end-foundations
+
+http://courseware.codeschool.com/codeschool_try_jquery.zip
+
+---
+
+http://gitreal.codeschool.com
+
+http://git-scm.com
+
+git help
+
+git config  --global user.name "Gregg Pollack"
+git config  --global user.email ph@educreational.com
+git config  --global color.ui true
+
+mkdir store
+cd store
+git init
+
+Workflow
+    Add/Modify files
+    Add file to staging area
+    Commit changes
+
+git status
+
+git add "file" (to stage)
+git commit -m "Create/modify some file for some feature"
+git status
+
+-> branch master (til level 3)
+
+git add --all
+git add .
+git add *.txt
+git add docs/*.txt
+git add docs/
+git add '*.txt'
+
+git log (to see history)
+
+Git and github
+https://www.udemy.com/short-and-sweet-get-started-with-git-and-github-right-now/?dtcode=hE8UJwa2TATn
+
+Javascript and JQuery from scratch
+https://www.udemy.com/learn-javascript-jquery-from-scratch/?dtcode=G2Tkdqf2TATn
+
+---
+
+https://thimble.webmaker.org/
+
+https://www.thenewboston.com/videos.php
+
+---
+
+1) Build a mini-site of 3 pages interlinked together through a common menu bar.
+
+2) Design it for responsive web using media queries:
+https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries
+
+3) Javascript (replicate the Amazon's book carousel, customers who bought also bought), so that we can dynamically add custom books to the list (3 inputs: title, price, image URL)
+
+It doesn't need to be a list of books (it could be a list of movies, video games, etc)
+
+Post questions to the group!! 
+Help each other if you know the answer.
