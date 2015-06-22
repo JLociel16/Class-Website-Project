@@ -1,0 +1,23 @@
+body {
+    /*background-image: url(../img/frame.jpg);*/
+    /*background-size: cover;*/
+    background-size: 500px;
+    background-attachment: fixed;
+}
+
+.listings ul.properties_list li {
+    width: 28%;
+    background-color: orange;
+    color: white;
+    border: 8px solid black;
+    border-radius: 9px;
+}
+
+.listings ul.properties_list li h1 a {
+    color: white;
+}
+
+section.caption {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
