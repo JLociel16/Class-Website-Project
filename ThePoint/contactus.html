@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: red;
+    }
+
+    header, footer {
+      background-color: red;
+      color: white;
+      opacity: ;
+    }
+
+    header {
+      position: relative;
+    }
+    
+    .main {
+      height: 450px;
+      background-color: white;
+      margin: auto;
+      width: 90%;
+      border: 3px ridge #E81919;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    
+    .logo {
+      margin-top: 6px;
+      margin-left: 6px;
+      position: ;
+    }
+    
+    nav {
+      background-color: red;      
+      position: fixed;
+      top: 0px;
+      right: 20px;
+      font-weight: bold;
+      opacity: ;
+    }
+
+    .navi {
+      color: white;
+    }
+    
+    ul {
+      list-style-type: none;
+    }
+    
+    li {
+      line-height: 2em;
+      margin-right: 10px;
+      display: inline-block;
+      font-weight: bold;
+    }
+    
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 5px;
+      border: 2px solid red;
+      transition: 0.5s;
+      border-radius: 3px;
+    }
+    
+    a:hover {
+      border: 2px solid white;
+    }
+       
+    @media (max-width: 500px) {
+      nav {
+        position: relative;
+        padding: 0px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="http://thepoint.org/images/logowhitered.jpg" class="logo" />
+
+    <div class="navi">
+    <nav>
+      <ul>
+        <li><a href="index.html">Rent</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+    
+  </header>
+  
+  <main>
+    <div class="main">
+        <div class="contain">
+          <h1>Stuff</h1>
+        </div>
+    </div>
+  </main>
+  
+  <style>
+    
+    .physical {
+      display: inline-block;
+      height: 100px;
+      width: 10em;
+      padding: 10px 20px;
+    }
+    
+    p {
+      margin: 0;
+    }
+    
+    .social {
+      display: inline-block;
+      width: 10em;
+      padding: 10px;
+      /* background-color: cyan; */
+      float: right;
+    }
+
+    @media (max-width: 300px) {
+       {
+        float: none;
+      }
+    }
+
+    ul li {
+      color: white;
+    }
+
+    
+  </style>
+  
+  <footer>
+    <div class="physical">
+      <p>The Point CDC</p>
+      <p>940 Garrison Ave</p>
+      <p>Bronx, NY 10474</p>
+      <p>718-542-4139</p>
+    </div>
+    <div class="social">
+      <p>Connect with Us</p>
+      <p>
+        <img src="http://iconion.com/posts/video/social-icons/social-icons.jpg" width="100">
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
