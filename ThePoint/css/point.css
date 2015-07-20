@@ -33,3 +33,41 @@ section.caption {
 	margin-left: 220px;
 	margin-top: 30px;
 }
+
+.hero .caption h2 {
+    font-family: Georgia;
+    font-size: 50px;
+}
+
+
+footer{
+    background: rgba(28, 54, 85, .2);
+    padding: 3px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 15px;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: blink;
+    color: black;
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+.col-lg-4 {
+    text-align: center;
+}
