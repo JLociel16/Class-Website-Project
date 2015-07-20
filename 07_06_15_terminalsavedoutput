@@ -1,0 +1,75 @@
+Last login: Fri Jul  3 17:42:07 on ttys012
+cdTunisias-MacBook-Pro:~ tmitchell$ cd desktop
+Tunisias-MacBook-Pro:desktop tmitchell$ cd newton/
+Tunisias-MacBook-Pro:newton tmitchell$ cd Class-Website-Project/
+Tunisias-MacBook-Pro:Class-Website-Project tmitchell$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   .DS_Store
+#	modified:   ThePoint/.DS_Store
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	ThePoint/about (3).html
+no changes added to commit (use "git add" and/or "git commit -a")
+Tunisias-MacBook-Pro:Class-Website-Project tmitchell$ git pull
+remote: Counting objects: 37, done.
+remote: Compressing objects: 100% (36/36), done.
+remote: Total 37 (delta 20), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (37/37), done.
+From https://github.com/Dedvalve/Class-Website-Project
+   841a589..7de915d  master     -> origin/master
+Updating 841a589..7de915d
+error: Your local changes to the following files would be overwritten by merge:
+	.DS_Store
+	ThePoint/.DS_Store
+Please, commit your changes or stash them before you can merge.
+Aborting
+Tunisias-MacBook-Pro:Class-Website-Project tmitchell$ git commit
+# On branch master
+# Your branch is behind 'origin/master' by 9 commits, and can be fast-forwarded.
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   .DS_Store
+#	modified:   ThePoint/.DS_Store
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	ThePoint/about (3).html
+no changes added to commit (use "git add" and/or "git commit -a")
+Tunisias-MacBook-Pro:Class-Website-Project tmitchell$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+Tunisias-MacBook-Pro:Class-Website-Project tmitchell$ git add .
+Tunisias-MacBook-Pro:Class-Website-Project tmitchell$ git commit -m'new'
+[master 907a25d] new
+ 3 files changed, 81 insertions(+)
+ create mode 100644 ThePoint/about (3).html
+Tunisias-MacBook-Pro:Class-Website-Project tmitchell$ git push origin master
+To https://github.com/Dedvalve/Class-Website-Project.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Dedvalve/Class-Website-Project.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Tunisias-MacBook-Pro:Class-Website-Project tmitchell$ git pull
+warning: Cannot merge binary files: ThePoint/.DS_Store (HEAD vs. 7de915d1e9d7e4610c0e150ea6d6585f0f0ae4c2)
+warning: Cannot merge binary files: .DS_Store (HEAD vs. 7de915d1e9d7e4610c0e150ea6d6585f0f0ae4c2)
+Auto-merging ThePoint/Riverside Campus.html
+Auto-merging ThePoint/Office Space Rentals.html
+Auto-merging ThePoint/Live from Edge Theatre.html
+Auto-merging ThePoint/.DS_Store
+CONFLICT (content): Merge conflict in ThePoint/.DS_Store
+Auto-merging .DS_Store
+CONFLICT (content): Merge conflict in .DS_Store
+Automatic merge failed; fix conflicts and then commit the result.
+Tunisias-MacBook-Pro:Class-Website-Project tmitchell$ 

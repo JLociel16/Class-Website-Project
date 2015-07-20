@@ -1,26 +1,16 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>The Point</title>
-	<meta charset="utf-8">
-	<meta name="author" content="pixelhint.com">
-	<meta name="description" content="La casa free real state fully responsive html5/css3 home page website template"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/point.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
 	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<link rel="stylesheet" type="text/css" href="css/point.css">
-<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="static/css/style.css">
-	<!-- Latest compiled and minified JavaScript -->
-	<script type="text/javascript" src="static/js/jquery-2.1.3.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
-
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<style>
 		header{
 			padding: 0px 20px 40px 20px;
@@ -29,7 +19,8 @@
 			background-color: red;
 		}
 		footer{
-			background: rgba(28, 54, 85, .2);;
+			background: rgba(28, 54, 85, .2);
+			padding: 3px;
 		}
 		#content{
 			margin-left: 100px;
@@ -42,26 +33,40 @@
 			text-align: center;
 			text-decoration: underline;
 			color: black;
-
+		}
+		h3 {
+			text-align: center;
+			text-decoration: underline;
+			color: black;
+			font-size: 15px;
+		}
+		h4{
+			text-align: center;
+			text-decoration: blink;
+			color: black;
+			font-size: 15px;
 		}
 		p{
+			text-align: center;
+		}
+		.col-lg-4 {
 			text-align: center;
 		}
 	</style>
 </head>
 <body>
 	<header>
-		<div class="wrapper">	
-			<a href="index.html"><img src="img/logo.jpg" class="logo" id="logo" titl=""/></a>
+			<a href="base.html"><img src="img/logo.jpg" class="logo" id="logo" titl=""/></a>
 			<a href="#" class="hamburger"></a>
 			<nav>
-				<ul>					
-					<li><a href="index.html">Rent</a></li>
+				<ul>
+					<li><a href="base.html">home</a></li>
+					<li><a href="#">Rent</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
+				<a href="#" class="login_btn">Login</a>
 			</nav>
-		</div>
 	</header><!--  end header section  -->
 	<div id="content" style="background-color: white;">
 		<h2>Mission</h2>
@@ -77,10 +82,39 @@
 		<h2>Theory of Change</h2>
 		<p>In 2008, THE POINT affirmed its Theory of Change to be: "People in the community create the community in which they want to live." THE POINT's Theory of Change is the guiding principle behind all of its programs and projects.</p>
 	</div>
-	<footer>
-		<div class="copyrights wrapper">
-			Copyright © 2015
-		</div>
-	</footer><!--  end footer  -->
+    <footer>
+        <div class="container-fluid" style="margin-top:10px">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h4>
+                            The Point CDC 940
+                            <br>
+                            Garison Ave
+                            <br>
+                            Bronx, New 10474
+                            <br>
+                            718-542-4139
+                        </h4>
+                    </div>
+                    <div class="col-lg-4" style="padding: 0px;">
+
+                    </div>
+                    <div class="col-lg-4" style="padding-top: 0px;">
+                        <h3 style="text-align:center;">Contact Us</h3>
+                        <a href="https://www.facebook.com/pages/The-Point-CDC/108881392861"><img src="img/links/Facebook.png" alt="Mountain View" style="width:30px;height:30px;" /></a>
+                        <a href="https://instagram.com/thepointcdc/"><img src="img/links/Instagram.png" alt="Mountain View" style="width:30px;height:30px;" /></a>
+                        <a href="https://www.flickr.com/photos/thepointcdc/"><img src="img/links/flickr.png" alt="Mountain View" style="width:30px;height:30px;" /></a>
+                        <a href="http://thepointcdc.tumblr.com"><img src="img/links/tumblr.png" alt="Mountain View" style="width:30px;height:30px;" /></a>
+                        <a href="https://twitter.com/thepointcdc"><img src="img/links/twitter.png" alt="Mountain View" style="width:30px;height:30px;" /></a>
+                        <a href="https://www.youtube.com/user/THEPOINTCDC"><img src="img/links/youtube.png" alt="Mountain View" style="width:30px;height:30px;" /></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div style="color:black; margin-top: 5px;" class="copyrights wrapper">
+                Copyright © 2015
+            </div>
+    </footer>
 </body>
 </html>
